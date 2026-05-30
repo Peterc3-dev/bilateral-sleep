@@ -1,0 +1,4 @@
+# Bilateral Sleep — desktop reference tool
+# numpy + sounddevice only (PortAudio provides the audio backend).
+numpy>=1.24
+sounddevice>=0.4
