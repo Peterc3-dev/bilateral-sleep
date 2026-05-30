@@ -12,6 +12,10 @@ Two front-ends share **one identical DSP algorithm**:
 | `desktop/` | Linux reference tool — `numpy` + `sounddevice`, full CLI. |
 | `android/` | Autism-friendly Android app (dimmed-phosphor UI), packaged as an APK. |
 
+![Bilateral Sleep — idle, playing with sleep-timer countdown, and advanced controls](assets/screens.png)
+
+<sup>Real screenshots: **idle** · **playing** (amber STOP + live sleep-timer countdown, silent service running) · **advanced** (resonance / rumble / binaural / pan shape). Dimmed-phosphor, fully static — no flashing or animation.</sup>
+
 ## Architecture (carrier vs envelope, kept strictly separate)
 - **Carrier** (in-band, what the driver reproduces): Poisson clicks → RBJ resonant
   bandpass (`carrier-center`, `carrier-q`) layered over a brown-noise bed.

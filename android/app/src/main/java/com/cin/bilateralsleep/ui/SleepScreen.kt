@@ -71,9 +71,10 @@ fun SleepScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
-            "B I L A T E R A L   S L E E P",
+            "BILATERAL SLEEP",
             style = MaterialTheme.typography.titleLarge,
             color = Phosphor.Green,
+            maxLines = 1,
         )
         Spacer(Modifier.height(22.dp))
 
